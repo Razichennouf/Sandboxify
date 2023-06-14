@@ -1,5 +1,11 @@
 # isolab
 isolab is a tool to create a fully isolated env within your virtual machine or host machine fast and reliably 
+
+Isolate memory, Filesystem, Processes, Network, 
+Monitor everything
+Creates a snapshot
+
+
 Step 1: Network Segmentation
 
 Configure the virtual machine to use a separate network segment.
