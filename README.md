@@ -39,8 +39,15 @@ Sandboxify  is a tool to create a fully isolated env within your virtual machine
 
 
 Isolate memory, Filesystem, Processes, Network, 
+
+
 Monitor everything
+
 Creates a snapshot
+
+sandboxing using secomp
+
+Sandbox Processes With Systemd
 
 Step 0: This package provides a simple way to enable basic seccomp system call filtering in any application (even proprietary one) via environment variables. It is very similar to
 Step 1: Network Segmentation
