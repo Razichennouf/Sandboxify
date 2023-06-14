@@ -47,11 +47,15 @@ Creates a snapshot
 
 sandboxing using secomp
 
+using namespace
+
+using cgroups
+
 Sandbox Processes With Systemd
 
 Step 0: This package provides a simple way to enable basic seccomp system call filtering in any application (even proprietary one) via environment variables. It is very similar to
 Step 1: Network Segmentation
-
+  Identify the network segments: Determine the logical divisions you want to create within your virtual machine network. For example, you can have separate segments for production, testing, and experimental purposes.
 Configure the virtual machine to use a separate network segment.
 
 Step 2: Use a VPN
