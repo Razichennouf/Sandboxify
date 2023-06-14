@@ -42,7 +42,7 @@ Isolate memory, Filesystem, Processes, Network,
 Monitor everything
 Creates a snapshot
 
-
+Step 0: This package provides a simple way to enable basic seccomp system call filtering in any application (even proprietary one) via environment variables. It is very similar to
 Step 1: Network Segmentation
 
 Configure the virtual machine to use a separate network segment.
